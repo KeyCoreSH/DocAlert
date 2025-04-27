@@ -1,6 +1,18 @@
+<style>
+  .logo-light { display: block; }
+  .logo-dark { display: none; }
+
+  @media (prefers-color-scheme: dark) {
+    .logo-light { display: none; }
+    .logo-dark { display: block; }
+  }
+</style>
+
 <p align="center">
-  <img src="img/DocAlert.png" alt="DocAlert Logo" width="300"/>
+  <img src="img/DocAlert-dark.png" alt="DocAlert Logo Light" class="logo-light" width="300"/>
+  <img src="img/DocAlert-light.png" alt="DocAlert Logo Dark" class="logo-dark" width="300"/>
 </p>
+
 
 # 📄 Nome do Projeto: DocAlert v1.0
 
